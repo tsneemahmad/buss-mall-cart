@@ -1,0 +1,121 @@
+header{
+    background-color: blueviolet;
+    padding: 15px;
+}
+
+header h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    margin:  auto;
+}
+nav ul{
+    text-align: center;
+    margin: 15px;
+}
+
+
+
+nav ul li{
+    display: inline-block;
+    padding: 5px;
+    margin: 0px 30px;
+    text-align: center;
+    font-size: 50px;
+}
+main{
+    min-height: 500px;
+    background-color: cornflowerblue;
+}
+footer{
+    height: 100px;
+    background-color: darkblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#cartContents{
+    /* width: 200px;
+    height: 125px; */
+    text-align: center;
+    /* margin: 10px auto; */
+    /* padding: 5px;
+    border: 3px solid black; */
+    background-color: blue;
+    transition: all .7s ease-in-out;
+    animation: animatedMsg 1.5s ease-in-out infinite ;
+    color: white;
+
+
+}
+#cartContents:hover{
+opacity: .85;
+}
+
+@keyframes animatedMsg {
+    0%, 100% {
+        background-color: blue;
+    }
+    50%
+    {
+        background-color: yellow;
+    }
+}
+
+#cartContents h3 {
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    word-spacing: 22px;
+    text-align: center;
+    margin: 10px;
+
+}
+
+#cartContents a {
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+
+
+}
